@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Zuko's Journey | Avatar: The Last Airbender</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="swords-animation">
+            <img src="images/dao-sword-left.png" class="sword left" alt="">
+            <img src="images/dao-sword-right.png" class="sword right" alt="">
+            <h2>Honor is Loading...</h2>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fire-nav">
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#evolution" class="nav-link">Evolution</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#moments" class="nav-link">Moments</a></li>
+            <li><a href="#bending" class="nav-link">Firebending</a></li>
+        </ul>
+        <div class="nav-flames"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="scar-reveal">
+            <img src="images/zuko-face.png" class="zuko-face" alt="Zuko">
+            <div class="scar-overlay"></div>
+        </div>
+        <h1 class="fire-text">Prince Zuko</h1>
+        <p class="subtitle">The Journey of Honor</p>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <div class="fire-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Character Evolution Section -->
+    <section id="evolution" class="evolution-section">
+        <h2>Character Evolution</h2>
+        <div class="timeline-container">
+            <!-- Timeline will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="mosaic-gallery">
+            <!-- Gallery items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/threejs-fire.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gsap-animations.js"></script>
+</body>
+</html>
